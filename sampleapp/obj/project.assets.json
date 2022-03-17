@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "devio.amazon.gamelift.server.lib.collection/0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/GameLiftServerSDKNet45.dll": {},
+          "lib/Google.Protobuf.dll": {},
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/System.Buffers.dll": {},
+          "lib/System.Collections.Immutable.dll": {},
+          "lib/System.Configuration.ConfigurationManager.dll": {},
+          "lib/System.Memory.dll": {},
+          "lib/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "lib/log4net.dll": {},
+          "lib/websocket-sharp.dll": {}
+        },
+        "runtime": {
+          "lib/GameLiftServerSDKNet45.dll": {},
+          "lib/Google.Protobuf.dll": {},
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/System.Buffers.dll": {},
+          "lib/System.Collections.Immutable.dll": {},
+          "lib/System.Configuration.ConfigurationManager.dll": {},
+          "lib/System.Memory.dll": {},
+          "lib/System.Runtime.CompilerServices.Unsafe.dll": {},
+          "lib/log4net.dll": {},
+          "lib/websocket-sharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "devio.amazon.gamelift.server.lib.collection/0.0.1": {
+      "sha512": "awIQ/ehr5VFFPXRTb7BU5DcPRFsHnaBIlRAYE/ECO5ZhRyCDOObIWW43661nM+E1sY1adfn9odSNe6T3DOXK4Q==",
+      "type": "package",
+      "path": "devio.amazon.gamelift.server.lib.collection/0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "devio.amazon.gamelift.server.lib.collection.0.0.1.nupkg.sha512",
+        "devio.amazon.gamelift.server.lib.collection.nuspec",
+        "lib/GameLiftServerSDKNet45.dll",
+        "lib/Google.Protobuf.dll",
+        "lib/Newtonsoft.Json.dll",
+        "lib/System.Buffers.dll",
+        "lib/System.Collections.Immutable.dll",
+        "lib/System.Configuration.ConfigurationManager.dll",
+        "lib/System.Memory.dll",
+        "lib/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/log4net.dll",
+        "lib/websocket-sharp.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "devio.amazon.gamelift.server.lib.collection >= 0.0.1"
+    ]
+  },
+  "packageFolders": {
+    "/home/ubuntu/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/ubuntu/sampleapp/sampleapp.csproj",
+      "projectName": "sampleapp",
+      "projectPath": "/home/ubuntu/sampleapp/sampleapp.csproj",
+      "packagesPath": "/home/ubuntu/.nuget/packages/",
+      "outputPath": "/home/ubuntu/sampleapp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/ubuntu/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "devio.amazon.gamelift.server.lib.collection": {
+            "target": "Package",
+            "version": "[0.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'devio.amazon.gamelift.server.lib.collection 0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "devio.amazon.gamelift.server.lib.collection",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

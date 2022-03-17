@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "Af0D+LzTEALkDagd0F6teCSlGimmv+N8EtkOcPebdInGY+sXm5+3gyX6S1Aznagji6hgfG8W0QdJ+vAD6zS/lg==",
+  "success": true,
+  "projectFilePath": "/home/ubuntu/sampleapp/sampleapp.csproj",
+  "expectedPackageFiles": [
+    "/home/ubuntu/.nuget/packages/devio.amazon.gamelift.server.lib.collection/0.0.1/devio.amazon.gamelift.server.lib.collection.0.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'devio.amazon.gamelift.server.lib.collection 0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "devio.amazon.gamelift.server.lib.collection",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
