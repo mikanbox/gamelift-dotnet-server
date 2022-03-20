@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ubuntu/sampleapp/sampleapp.csproj": {}
+    "/home/ubuntu/gamelift_dotnet_server/sampleapp/sampleapp.csproj": {}
   },
   "projects": {
-    "/home/ubuntu/sampleapp/sampleapp.csproj": {
+    "/home/ubuntu/gamelift_dotnet_server/sampleapp/sampleapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ubuntu/sampleapp/sampleapp.csproj",
+        "projectUniqueName": "/home/ubuntu/gamelift_dotnet_server/sampleapp/sampleapp.csproj",
         "projectName": "sampleapp",
-        "projectPath": "/home/ubuntu/sampleapp/sampleapp.csproj",
+        "projectPath": "/home/ubuntu/gamelift_dotnet_server/sampleapp/sampleapp.csproj",
         "packagesPath": "/home/ubuntu/.nuget/packages/",
-        "outputPath": "/home/ubuntu/sampleapp/obj/",
+        "outputPath": "/home/ubuntu/gamelift_dotnet_server/sampleapp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ubuntu/.nuget/NuGet/NuGet.Config"

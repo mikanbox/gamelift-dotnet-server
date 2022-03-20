@@ -1,0 +1,61 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "sampleapp/1.0.0": {
+        "dependencies": {
+          "devio.amazon.gamelift.server.lib.collection": "0.0.1"
+        },
+        "runtime": {
+          "sampleapp.dll": {}
+        }
+      },
+      "devio.amazon.gamelift.server.lib.collection/0.0.1": {
+        "runtime": {
+          "lib/GameLiftServerSDKNet45.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/Google.Protobuf.dll": {
+            "assemblyVersion": "3.11.2.0",
+            "fileVersion": "3.11.2.0"
+          },
+          "lib/Newtonsoft.Json.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1.19813"
+          },
+          "lib/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "lib/log4net.dll": {
+            "assemblyVersion": "1.2.15.0",
+            "fileVersion": "1.2.15.0"
+          },
+          "lib/websocket-sharp.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sampleapp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "devio.amazon.gamelift.server.lib.collection/0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-awIQ/ehr5VFFPXRTb7BU5DcPRFsHnaBIlRAYE/ECO5ZhRyCDOObIWW43661nM+E1sY1adfn9odSNe6T3DOXK4Q==",
+      "path": "devio.amazon.gamelift.server.lib.collection/0.0.1",
+      "hashPath": "devio.amazon.gamelift.server.lib.collection.0.0.1.nupkg.sha512"
+    }
+  }
+}

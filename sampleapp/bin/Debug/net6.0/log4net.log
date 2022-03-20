@@ -1,0 +1,4 @@
+2022-03-20 04:57:00,664 [1] INFO  Program - Start
+2022-03-20 04:57:00,794 [1] INFO  Aws.GameLift.Server.WebSocketListener - Connected to local agent.
+2022-03-20 04:57:00,846 [.NET ThreadPool Worker] DEBUG Aws.GameLift.Server.ServerState - HealthCheck thread started.
+2022-03-20 04:57:00,847 [.NET ThreadPool Worker] DEBUG Aws.GameLift.Server.ServerState - Reporting health using the OnHealthCheck callback.

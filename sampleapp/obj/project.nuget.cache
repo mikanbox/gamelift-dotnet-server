@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Af0D+LzTEALkDagd0F6teCSlGimmv+N8EtkOcPebdInGY+sXm5+3gyX6S1Aznagji6hgfG8W0QdJ+vAD6zS/lg==",
+  "dgSpecHash": "6pDg654c9KqLynONcaynMdpgg8ES1KYgCOiKg0bjrbuf6n/cfCxAfRt0hxp9C5Fz95uTQCxtD9niLswJlWitcQ==",
   "success": true,
-  "projectFilePath": "/home/ubuntu/sampleapp/sampleapp.csproj",
+  "projectFilePath": "/home/ubuntu/gamelift_dotnet_server/sampleapp/sampleapp.csproj",
   "expectedPackageFiles": [
     "/home/ubuntu/.nuget/packages/devio.amazon.gamelift.server.lib.collection/0.0.1/devio.amazon.gamelift.server.lib.collection.0.0.1.nupkg.sha512"
   ],
